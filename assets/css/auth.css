@@ -1,0 +1,87 @@
+::selection{
+    background-color: hsla(0, 80%, 50%, 0.678);
+    color: white;
+    border-radius: 22px;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header h2 {
+    margin-bottom: -9px;
+    text-align: center;
+    font-weight: 700;
+}header p {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: small;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    text-align: left;
+    font-weight: 500;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border-radius: 14px;
+    border: 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #e61919;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight: 700;
+}
+input[type="submit"]:hover {
+    background-color: #be1515;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #fafafa inset;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+input[type="checkbox"] {
+    margin: 0;
+}.container a{
+    color: #e61919;
+    text-decoration: none;
+}.container a:hover{
+    color: #af2c2c;
+    text-decoration:underline;
+}
