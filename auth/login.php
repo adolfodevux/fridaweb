@@ -15,8 +15,8 @@
         </header>
         <main>
             <form action="../models/Sessions/login.php" method="post">
-                <label for="email">Correo:</label>
-                <input type="text" class='outlinenone' id="email" name="email" placeholder="ejemplo@frida.com" required>
+                <label for="email">Correo o Nick:</label>
+                <input type="text" class='outlinenone' id="email" name="email" placeholder="ejemplo@frida.com o Nick" required>
                 
                 <label for="password">Contraseña:</label>
                 <input type="password" class='outlinenone' id="password" name="password" placeholder="********" required>

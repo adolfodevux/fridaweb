@@ -19,16 +19,16 @@
             <p>Tu servicio de confiansa Frida</p>
         </header>
         <main>
-            <form action="../models/Sessions/reg.php">
+            <form action="../models/Sessions/reg.php" method="post">
             <label for="nick">Nombre para mostrar:</label>
-                <input type="text" class='outlinenone' id="email" name="email" placeholder="Frida">
+                <input type="text" name="nick" placeholder="Nick" required>
                 <label for="nombre">Nombre Completo</label>
-                <input type="text" class='outlinenone' id="email" name="email" placeholder="Frida Services ">    
+                <input type="text" name="nombre" placeholder="Nombre" required>   
                 <label for="correo">Correo:</label>
-                <input type="email" class='outlinenone' id="email" name="email" placeholder="ejemplo@frida.com">
+                <input type="email" name="correo" placeholder="Correo" required>
                 
                 <label for="pass">Contraseña:</label>
-                <input type="password" class='outlinenone' id="password" name="password" placeholder="********" >
+                <input type="password" name="password" placeholder="Password" required>
                 
                 <div class="checkbox-container">
                 <label for="showpass">Quieres ver tu contraseña?</label>
